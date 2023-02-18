@@ -14,9 +14,9 @@ export default function Navigation(){
             <li><button><img src={home}/>Home</button></li>
             <li><button><img src={aboutme}/>About Me</button></li>
             <li><button><img src={light_bulb}/>My Projects</button></li>
+            <li><button><img src={blogs}/>My Blogs</button></li>
             <li><a href={VaibhavYadav_Resume} download="VaibhavYadav_Resume"><button><img src={download}/>Download My Resume</button></a></li>
             <li><button><img src={contact}/>Contact Me</button></li>
-            <li><button><img src={blogs}/>My Blogs</button></li>
         </ul>
     </div>
         )

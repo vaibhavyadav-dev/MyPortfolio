@@ -8,10 +8,21 @@ import Banner from './Components/Banner';
 import AboutMe from './Components/AboutMe';
 // This one for MyProject Section 
 import MyProjects from './Components/MyProjects';
+// This one for Blogs
+import Blogs from './Components/Blogs';
+
+
+
+
+
+
+
+
+
+
+
+
 function App() {
-
-
-
 
 
 
@@ -21,6 +32,7 @@ function App() {
       <Banner />
       <AboutMe />
       <MyProjects />
+      <Blogs/>
     </div>
   );
 }

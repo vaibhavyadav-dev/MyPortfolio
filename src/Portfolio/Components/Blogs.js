@@ -5,14 +5,14 @@ export default function Blogs(){
 
 
     return(
-        <div className="Myblogs">
+        <div id="Blogs" className="Myblogs">
             <div className="Myblogs_heading">
-                <h2>MY BLOGS</h2>
+                <h3>MY BLOGS</h3>
                 <p>This Section Contains List Of Blogs I've Written So Far..</p>
             </div>
             <div className="Myblogs_section">
-                <GitnGitHub/>
                 <WebExtesion/>
+                <GitnGitHub/>
             </div>
             <div className="Explore_Blogs">
                 <a href="https://develop4you.hashnode.dev/" target="__blank">Explore 🚀 My Blogs</a>

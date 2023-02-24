@@ -8,7 +8,14 @@ export default function BlockGame(){
             <div className="projects_work">
             <a href="https://captaintron.github.io/BlockGame/" target="__blank"><img src={blockgameimg}></img></a>
             <div className="projects_info">
-                <p>In This Project I've Implemented Classes, Constructor, Events into function.</p>
+                <h4>Block Game</h4>
+                <p>
+                    This is Single Player Game build with HTML canvas.
+                    In this project I've Implemented Javascript classes, Constructor, methods into function to handle
+                    user input and generate result.
+                    The Black Block Is controllable by user by UP and DOWN buttons and fire a ammo with SPACEBAR, which refills in 
+                    every 5 seconds.
+                </p>
                 <p>
                     Tech Stack: Javascript, CSS, HTML.
                 </p>

@@ -10,9 +10,12 @@ import AboutMe from './Components/AboutMe';
 import MyProjects from './Components/MyProjects';
 // This one for Blogs
 import Blogs from './Components/Blogs';
-
-
-
+// This one for Contact Me section 
+import ContactMe from './Components/ContactMe';
+// This one For Thanking Animation
+import Thanking from './Components/Thanking';
+// This one For Footer Section
+import Footer from './Footer';
 
 
 
@@ -33,6 +36,8 @@ function App() {
       <AboutMe />
       <MyProjects />
       <Blogs/>
+      <ContactMe/>
+      <Footer/>
     </div>
   );
 }

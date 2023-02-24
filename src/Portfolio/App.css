@@ -1,19 +1,31 @@
 body{
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   background-color: rgb(187, 182, 182);
   font-family: 'Poppins', sans-serif;
 }
+
+
 /* This one for Navigation bar */
+.Navigation_container{
+  position: fixed;
+  z-index: 1;
+  /* box-shadow: 3px 3px 9px rgb(63, 60, 60); */
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 1.4s;
+}
+.Navigation_container:hover{
+  background-color: rgba(36, 35, 35, 0.295);
+}
 .Nav-items{
-  position: sticky;
-  /* width: 92.3vw; */
   margin: 0;
   font-weight: bolder;
   display: flex;
   list-style: none;
-  background-color: rgb(42, 45, 53);
-  box-shadow: 2px -2px 9px rgb(63, 55, 55);
+  box-shadow: 2px -1px 9px rgb(63, 55, 55);
 }
 .Nav-items li{
   margin: 0vh 4vh 0vh 0vh;
@@ -22,7 +34,8 @@ body{
   text-decoration: none;
 }
 .Nav-items li button{
-  color: wheat;
+  letter-spacing: 0.1vh;
+  color: white;
   font-size: 2.1vh;
   padding: 1vh;
   background-color: transparent;
@@ -34,25 +47,37 @@ body{
   align-items: center;
   outline: none;
   border: 0px solid black;
-  transition: background-color 3s;
+  transition: background-color 1.2s;
 }
 .Nav-items li button:hover {
-  background-color: rgb(41, 39, 39);
+  background-color: rgb(83, 82, 82);
   border-radius: 6px;
-  color: rgb(223, 156, 31);
-  box-shadow: 3px 3px 9px black;
+  color: rgb(175, 174, 174);
+  /* box-shadow: 3px 3px 9px black; */
 }
 .Nav-items img{
   transition: transform 2s;
+  margin: 0vh 1vh 0vh 0vh;
+  width: 2.7vw;
+  height: 4vh;
 }
 .Nav-items img:hover{
   transform: rotateY(360deg);
 }
-.Nav-items img{
-  margin: 0vh 1vh 0vh 0vh;
-  width: 2.4vw;
-  height: 4vh;
+
+@media screen and (max-width: 609px) {
+  .Nav-items{
+    display: none;
+  }
 }
+
+
+
+
+
+
+
+
 
 /* From here banner starts */
 .banner_div{
@@ -83,12 +108,8 @@ body{
 .myname{
   font-size: 8vh;
 }
-.text-content p{
-  /* font-size: 9vh; */
-}
-.banner_txt{
-  text-align: center;
-}
+
+
 /* Mouse Roll Animation Starts From here */
 .mouseroll-container{
   display: flex;
@@ -147,6 +168,20 @@ body{
    60% { transform: rotate( 0.0deg) }  
   100% { transform: rotate( 0.0deg) }
 }
+/* Mobile View Starts From HEre */
+@media screen and (max-width:609px) {
+  .myname{
+    font-size: 4.9vh;
+  }
+  .text-content h2{
+    font-size: 3.5vh;
+  }
+  .text-content p{
+    font-size: 2vh;
+  }
+}
+
+
 
 /* Scroll bar control starts from here */
 ::-webkit-scrollbar{
@@ -169,7 +204,7 @@ body{
 .aboutme_Heading{
   text-align: center;
 }
-.aboutme_Heading h2{
+.aboutme_Heading h3{
   letter-spacing: 0.5vw;
   font-size: 4vh;
   margin: 2vh;
@@ -205,10 +240,16 @@ body{
   padding: 3vh;
   font-size: 2.7vh;
 }
-/* .Left_side_containers h2 {
-} */
+.Left_side_containers article{
+  font-size: vh;
+}
+.spwords{
+  color: yellow;
+}
+
 /* this one for contact button on the Get to know me container */
 .ContactmeBtn{
+  background-color: transparent;
   margin: 5vh 0px 0px 0px;
   padding: 2vh;
   box-shadow: 5px 5px 9px black;
@@ -218,27 +259,25 @@ body{
   cursor: pointer;
 }
 .ContactmeBtn:hover{
-  color: rgb(73, 63, 43);
-  background-color: transparent;
+  color: rgb(80, 78, 78);
+  background-color: rgb(170, 169, 169);
 }
 
 .Right_side_containers{
   width: 44vw;
   padding: 3vh;
 }
-.Right_side_containers h2{
-  font-size: 4vh ;
+.Right_side_containers h3{
+  font-size: 3vh ;
 
 }
 .BOX_containers{
-  /* background-color: yellow; */
-  /* height: 40vh; */
   width: 45vw;
   display: flex;
   flex-wrap: wrap;
 }
 .BOX{
-  background-color: rgb(173, 196, 184);
+  background-color:transparent;
   box-shadow: 2px 2px 5px black;
   margin: 1.3vh;
   padding: 1.5vh;
@@ -248,9 +287,58 @@ body{
 
 }
 .BOX:hover{
-  background-color: transparent;
+  background-color: rgb(173, 196, 184);
   /* background: url("./Images/contact.svg"); */
 }
+/* Mobile View Starts From Here */
+@media screen and (max-width: 609px) {
+  .About_Me{
+    margin-left: -1vh;
+  }
+  .aboutme_Heading::after{
+    width: 24vw;
+    height: 0.5vh;
+    margin-top:-1.8vh;
+  }
+  .aboutme_Heading h3{
+    font-size: 2.9vh;
+    letter-spacing: 0.4vh;
+    margin-left: 1vh;
+  }
+  .aboutme_para{
+    font-size: 2vh;
+  }
+  .side_containers{
+    flex-direction: column;
+  }
+  .Left_side_containers{
+    width: 85vw;
+    font-size: 2vh;
+  }
+ 
+  .ContactmeBtn{
+    padding: 1vh;
+    font-size: 1.8vh;
+  }
+  .Right_side_containers h3{
+    font-size: 2.4vh;
+  }
+  .Right_side_containers{
+    padding: 3vh;
+    width: 85vw;
+  }
+  .BOX_containers{
+    width: 88vw;
+    margin: 0vh;
+  }
+  .BOX{
+    font-size: 1.7vh;
+    padding: 1.3vh;
+    margin: 0.6vh;
+    /* margin: 0; */
+  }
+  }
+
 /* My Projects Starts From here */
 .MyProjects_Heading{
   text-align: center;
@@ -264,6 +352,7 @@ body{
   content: '';
   background-color: yellow;
   width: 6vw;
+  border-radius: 1vh;
   height: 0.8vh;
   position: absolute;
   left: 96vh;
@@ -280,28 +369,52 @@ body{
   margin-top: 10vh;
   display: flex;
 }
+
+.Projects_work_Image_Container{
+  position: relative;
+}
+.Projects_work_Image_Container p{
+  position: absolute;
+  top: 23vh;
+  font-weight: bolder;
+  font-size: 3vh;
+  display: none;
+  left:3vw;
+  letter-spacing: 0.3vh;
+  text-decoration: underline;
+  text-underline-offset:5px;
+  color: white;
+}
+
 .projects_work img{
   width: 47vw;
   box-shadow: 5px 5px 9px rgb(51, 48, 48);
   border-radius: 5px;
+  transition: filter 1.5s, transform 2s;
 }
 .projects_work img:hover{
-  opacity: 0.8;
+  filter: brightness(74%);
+  /* opacity: 0.8; */
+  transform: scale(1.1);
+}
+.projects_info h4{
+  margin-top: 0.9vh;
 }
 .projects_info{
   margin-left: 4vh;
   font-size: 2.7vh;
   /* text-align: center; */
 }
+
 .projects_info button{
   padding: 2vh;
   border-radius: 1vh;
   border: none;
-  background-color: rgb(155, 185, 252);
-}
-.projects_info button:hover{
   background-color: transparent;
   box-shadow: 5px 5px 5px black;
+}
+.projects_info button:hover{
+  background-color: gray;
   cursor: pointer;
   border: none;
 }
@@ -310,10 +423,45 @@ body{
  color: black;
  font-size: 2.6vh;
 }
+/* For Mobile View  */
+@media screen and (max-width: 609px) {
+  .MyProjects_Heading{
+    font-size: 2vh;
+  }
+  .MyProjects_Heading h2::after{
+    left: 52vw;
+    width: 19vw;
+    height: 0.5vh;
+  }
+  .projects_info{
+    margin-left: 0vh;
+  }
+  .projects_work{
 
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  .projects_work img{
+    width: 91vw;
+  }
+  .projects_info {
+    width: 84vw;
+    font-size: 2vh;
+  }
+  .projects_info button{
+    padding: 1vh;
+  }
+  .projects_info  a{
+    font-size: 1.6vh;
+  }
+  .projects_section{
+    margin: 2.4vh;
+  }
+}
 
 /* Blogs Section Starts From Here */
-.Myblogs_heading h2{
+.Myblogs_heading h3{
   text-align: center;
   font-size: 4vh;
   letter-spacing: 1.4vh;
@@ -322,7 +470,7 @@ body{
   text-align: center;
   font-size: 2.6vh;
 }
-.Myblogs_heading h2::after{
+.Myblogs_heading h3::after{
   content: '';
   background-color: yellow;
   width: 6vw;
@@ -337,14 +485,18 @@ body{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  /* flex-direction: column; */
 }
 
 
 .Blog_Container{
+  width: 29vw;
   padding: 1vh;
   text-align: center;
   font-size: 2.2vh;
   border-radius: 1vh;
+  box-shadow: 4px 4px 9px black;
+  margin-top: 5vh;
 }
 
 
@@ -359,7 +511,7 @@ body{
 .ImgContainer img{
   position: relative;
   width: 30vw;
-  height: 40vh;
+  height: 34vh;
   opacity: 0.5;
   cursor: pointer;
   transition: transform 2s;
@@ -370,7 +522,7 @@ body{
 .Imgtext{
   position: absolute;
   color: white;
-  top: 13vh;
+  top: 12vh;
   left: 1vw;
   backdrop-filter: blur(2px);
   padding: 1vh;
@@ -392,11 +544,235 @@ body{
   
 }
 .Explore_Blogs a{
+  box-shadow: 5px 5px 9px black;
   text-decoration: none;
   color: black;
-  background-color: red;
+  background-color: rgb(211, 211, 63);
   padding: 1.3vh;
   font-size: 3vh;
   border-radius: 1vh;
+  margin: 4vh;
+}
+/* Mobile View Starts From Here */
+@media screen and (max-width: 609px) {
+  .Myblogs_heading h3{
+    letter-spacing: 0.4vh;
+  }
+  .Myblogs_heading h3::after{
+    width: 24vw;
+    margin-top: -0.1vh;
+    height: 0.5vh;
+  }
+  .Myblogs_section{
+    display: flex;
+    margin: 0vh;
+    padding: 0vh;
+    justify-content: center;
+  }
+  .Blog_Container{
+    width: 80vw;
+    padding: 0.5vh;
+    /* height: 40vh; */
+  }
+  .Blog_Container img{
+    margin:2vh;
+    height: 35vh;
+  }
+  .Explore_Blogs{
+    top: 2vh;
+  }
+  .Explore_Blogs a{
+    padding: 1vh;
+    font-size: 2vh;
+  }
+  
+  }
+
+
+
+/* This Section Contain Contact Me Section */
+
+.ContactMe{
+  margin-top: 14vh;
+}
+.ContactMe_Heading{
+  text-align: center;
+  font-size: 2.5vh;
+}
+.ContactMe_Heading h3{
+  letter-spacing: 0.5vh;
+  font-size: 3.5vh;
 
 }
+.ContactMe_Heading h3::after{
+  content: '';
+  background-color: yellow;
+  width: 9vw;
+  border-radius: 2vh;
+  height: 1vh;
+  position: relative;
+  left:50vw;
+  margin-top: 1vh;
+  display: block;
+}
+/* Contact Me Email Goes Here */
+.ContactME_Form{
+  text-align: center;
+  height: 0.4vh;
+  margin: 9vh;
+  border-radius: 1vh;
+  transition: transform 1s, box-shadow 1.6s;
+  
+}
+.ContactME_Form a{
+  font-size: 2.6vh;
+  border-radius: 1vh;
+  background-color: yellow;
+  padding: 2vh;
+  text-decoration: none;
+  box-shadow: 3px 3px 5px black;
+  box-sizing: border-box;
+  color:black;
+}
+
+.ContactME_Form:hover{
+  box-shadow: 0px 8vh 1px yellow;
+  transform: translate(0px, -20px);
+}
+/* THis one for SVG */
+.ContactMe_link{
+  display: float;
+  justify-content: center;
+}
+.ContactMe_link img{
+  width: 4vh;
+}
+/* Mobile View Goes Here */
+@media screen and (max-width: 609px) {
+  .ContactME_Form a{
+    padding: 1vh;
+    font-size: 2vh;
+  }
+  .ContactMe_Heading h3::after{
+    width:23vw;
+    height: 0.5vh;
+    margin: 0.3vh;
+  }
+  
+  }
+
+
+/* Test Typing Animation */
+.TextAnimation_Container{
+  margin: 3vh;
+}
+.TextAnimation{
+  width: 13vw;
+  text-align: center;
+  animation: typing 5s steps(19) infinite alternate, blink 1s infinite ;
+  white-space: nowrap;
+  border-right: 4px solid;
+  padding: 0.6vh;
+  font-size: 2vh;
+  overflow: hidden;
+}
+@keyframes typing {
+  from{
+    width: 0;
+    text-shadow: 3px 3px 6px yellow,3px 3px 6px yellow,3px 3px 6px yellow;
+    color: yellow;
+  }
+  to{
+    color: green;
+    text-shadow: 3px 3px 6px green;
+  }
+}
+@keyframes blink {
+  50%{
+    border-color: transparent;
+  }
+  100%{
+    /* width: 0; */
+  }
+}
+
+
+/* Footer Section Starts From Here */
+.FooterSection{
+  background-color: rgb(39, 37, 37);
+  color: white;
+  padding: 3vh;
+}
+.Container{
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0vh 8vh;
+}
+.Left_container h2{
+  letter-spacing: 0.2vh;
+  text-align: left;
+}
+.Left_container h3{
+  letter-spacing: 0.3vh;
+  color: red;
+}
+.Left_container p{
+  text-decoration: underline;
+  text-underline-offset: 1vh;
+}
+.Right_container h3{
+  letter-spacing: 0.2vh;
+}
+.SocialMedia_container div{
+  display: flex;
+  padding: 1vh;
+  cursor: pointer;
+}
+.FooterSection{
+  font-size: 2vh;
+}
+.FooterSection img{
+  width: 3.5vh;
+
+}
+.socialLinks img{
+  margin-right: 1vh;
+}
+.CreatorVaibhav{
+  letter-spacing: 0.3vh;
+  text-align: center;
+}
+.SocialMedia_container a{
+  text-decoration: none;
+  color:white;
+}
+.SocialMedia_container a:hover{
+  color:gray;
+}
+/* Mobile View Starts From Here */
+@media screen and (max-width: 609px) {
+   .Container{
+     margin: 0vh;
+     flex-direction: column;
+     justify-content: flex-start;
+   }
+  .Left_container{
+    font-size: 1.6vh;
+  }
+  .Left_container h3{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+  .Left_container p{
+    text-decoration: none;
+    margin-top: -2vh;
+  }
+  .TextAnimation_Container{
+    margin: 0vh;
+  }
+  .TextAnimation{
+    width: 53vw;
+  }
+  }

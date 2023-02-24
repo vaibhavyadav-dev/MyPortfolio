@@ -17,41 +17,37 @@ export default function AboutMe(){
 
 
     return (
-        <div className="About_Me">
+        <div id='AboutME' className="About_Me">
             <div>
             <div className="aboutme_Heading">
-                <h2> ABOUT ME {Emoji}
-            </h2>
+                <h3> ABOUT ME {Emoji}
+            </h3>
             </div>
             <div className="aboutme_para">
-                <p>Here You Will find More Information About Me Regarding Technology and Programming</p>
+                <p>Here You Will Find More Information About Me</p>
             </div>
 
         {/* Here it will contain two sides boxes  */}
         <div className="side_containers">
+            
             {/* This one for Left Side boxes  */}
         <div className="Left_side_containers">
-        <h2>Get To Know Me: </h2>
+        <h3>Know Me: </h3>
         <article>
-            lroem is shda fsaf ajfas f fasjfdasidf asdf asdfjas dfasjdfas dfasjfdasjf
-            asfdjasfjasdif safjsa fasjfdasidfasf afjasfj 
-            dfashdf afha sfas'dfas
-            fdf fjdfjasdfjaskdfjafafs
-            fsafdhsajfaifja sfafdja fasjfdasidffa fjdfjasdfjaskdfjafafsaf fhasfjsafjas
-            fas fsajfjasdfajsfjf
-            dfsjdfosajfslafas'dfasjfdasjffasjfafjasfjasf a
-            sfsa faofjfsaf
-            safsafjsafojsafsanfskadf
-            safsoiafjsadjfas'ldfas
-            fsadhf asdjasjdlsajsoi jsaofj osadjfsad fsoadjfs jfsfj soadfj sadfjoasfjsaoi fj
-            saf asdofjsafijsaf sajf safd sajfj safjsaof safjasfdjasfjafjejsjf sadfjoasfjsaoi
-            my name is vaibhav yadav and today I'm building my portfolio website and now i've nothing to say.
+            Hi My name Is <span className='spwords'>Vaibhav Yadav</span> .
+            Currently I'm a Front End Developer, soon I will be a <span className='spwords'>Full Stack Developer</span> .
+            I'm Fast and Self Learner, Learned Web Development by myself through Google, Community, Youtube, Stackoverflow, Blogs.
+            I've build Majority of Projects during my learnings and now I'm ready with my skills to work for organization
+            .<br></br>
+            The Will to Create something <span className='spwords'>Innovative</span> excites me the most, it keeps me motivated to try and build something
+            that has the potential to impact society.
+            I loves how the World Work With <span className='spwords'>Codes</span> and to explore them.
         </article>
-        <button className="ContactmeBtn">Contact Me</button>
+        <a href='mailto:21vaibhav11@gmail.com'><button className="ContactmeBtn">Contact Me</button></a>
         </div>
         {/* This one for Right Side Boxes */}
         <div className="Right_side_containers">
-        <h2>My Skills: </h2>
+        <h3>My Skills: </h3>
         
         {/* Skill box goes here */}
         <div className="BOX_containers">

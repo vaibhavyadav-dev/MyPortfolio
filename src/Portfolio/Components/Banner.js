@@ -2,9 +2,8 @@ export default function Banner(){
 
 
 
-
     return(
-        <div className="banner_div">
+        <div id="Home" className="banner_div">
             <div className="img">
                 <div className="text-content">
                 <h2>HII <span class="wave">👋</span> !!<br></br> MYSELF <br></br> <span className="myname">VAIBHAV YADAV</span></h2>

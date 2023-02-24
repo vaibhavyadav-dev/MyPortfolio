@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.9f28dd52.css",
+    "main.js": "/MyPortfolio/static/js/main.9011c81a.js",
+    "static/media/WebExtensionImg.png": "/MyPortfolio/static/media/WebExtensionImg.69ee818e8509e7daeb36.png",
+    "static/media/Weatherapp.png": "/MyPortfolio/static/media/Weatherapp.3c85411d96e9d20b2bfa.png",
+    "static/media/GitandIGitHubImages.png": "/MyPortfolio/static/media/GitandIGitHubImages.91ce8d807247b40187bf.png",
+    "static/media/Linkedinimg.png": "/MyPortfolio/static/media/Linkedinimg.70d685e104b580e403cf.png",
+    "static/media/VaibhavYadav_Resume.pdf": "/MyPortfolio/static/media/VaibhavYadav_Resume.c1473f97b74add61252d.pdf",
+    "static/media/LibraryImg.png": "/MyPortfolio/static/media/LibraryImg.ad975c7c4b51a4141299.png",
+    "static/media/Banner Background.jpg": "/MyPortfolio/static/media/Banner Background.5af7808546d013d4a37b.jpg",
+    "static/media/blockgameimg.png": "/MyPortfolio/static/media/blockgameimg.800a7ea8fb23f90bfe45.png",
+    "static/media/light_bulb.svg": "/MyPortfolio/static/media/light_bulb.54c6f0633265bccbf61eaefd2af6725c.svg",
+    "static/media/instagram.svg": "/MyPortfolio/static/media/instagram.a0a9a83448ddb5827d70493a84d37806.svg",
+    "static/media/contact.svg": "/MyPortfolio/static/media/contact.517c766d3da4f1aa42a4a9fce1c4004f.svg",
+    "static/media/logo.svg": "/MyPortfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/blogs.svg": "/MyPortfolio/static/media/blogs.f3e9aee1a1ad7fef6074cda123caef75.svg",
+    "static/media/github.svg": "/MyPortfolio/static/media/github.3df526c92ae4bfd5f9f3c55e9092fdb2.svg",
+    "static/media/home.svg": "/MyPortfolio/static/media/home.6f6e2358a6590270750855527b9f0e5c.svg",
+    "static/media/hashnode.svg": "/MyPortfolio/static/media/hashnode.64f83b061d80edf0db8e72918ff45e4b.svg",
+    "static/media/aboutme.svg": "/MyPortfolio/static/media/aboutme.07909b7150f918cca5b069ef67562a3d.svg",
+    "static/media/time.svg": "/MyPortfolio/static/media/time.71bdddf1b6ad679d641b0f2e20625632.svg",
+    "index.html": "/MyPortfolio/index.html",
+    "static/media/download.svg": "/MyPortfolio/static/media/download.520ebed7d34ec6c5f5ada3eb10fcc646.svg",
+    "static/media/youtube.svg": "/MyPortfolio/static/media/youtube.cfff527d4e77cb8b6131fb1e1f445c15.svg",
+    "static/media/linkedin.svg": "/MyPortfolio/static/media/linkedin.105953379cae0b982579206f06690f94.svg",
+    "main.9f28dd52.css.map": "/MyPortfolio/static/css/main.9f28dd52.css.map",
+    "main.9011c81a.js.map": "/MyPortfolio/static/js/main.9011c81a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f28dd52.css",
+    "static/js/main.9011c81a.js"
+  ]
+}

@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.9f28dd52.css",
-    "main.js": "/MyPortfolio/static/js/main.9011c81a.js",
+    "main.js": "/MyPortfolio/static/js/main.1fec20dc.js",
     "static/media/WebExtensionImg.png": "/MyPortfolio/static/media/WebExtensionImg.69ee818e8509e7daeb36.png",
     "static/media/Weatherapp.png": "/MyPortfolio/static/media/Weatherapp.3c85411d96e9d20b2bfa.png",
     "static/media/GitandIGitHubImages.png": "/MyPortfolio/static/media/GitandIGitHubImages.91ce8d807247b40187bf.png",
     "static/media/Linkedinimg.png": "/MyPortfolio/static/media/Linkedinimg.70d685e104b580e403cf.png",
-    "static/media/VaibhavYadav_Resume.pdf": "/MyPortfolio/static/media/VaibhavYadav_Resume.c1473f97b74add61252d.pdf",
+    "static/media/VaibhavYadav_Resume.pdf": "/MyPortfolio/static/media/VaibhavYadav_Resume.737b4b33630b3988445b.pdf",
     "static/media/LibraryImg.png": "/MyPortfolio/static/media/LibraryImg.ad975c7c4b51a4141299.png",
     "static/media/Banner Background.jpg": "/MyPortfolio/static/media/Banner Background.5af7808546d013d4a37b.jpg",
     "static/media/blockgameimg.png": "/MyPortfolio/static/media/blockgameimg.800a7ea8fb23f90bfe45.png",
@@ -25,10 +25,10 @@
     "static/media/youtube.svg": "/MyPortfolio/static/media/youtube.cfff527d4e77cb8b6131fb1e1f445c15.svg",
     "static/media/linkedin.svg": "/MyPortfolio/static/media/linkedin.105953379cae0b982579206f06690f94.svg",
     "main.9f28dd52.css.map": "/MyPortfolio/static/css/main.9f28dd52.css.map",
-    "main.9011c81a.js.map": "/MyPortfolio/static/js/main.9011c81a.js.map"
+    "main.1fec20dc.js.map": "/MyPortfolio/static/js/main.1fec20dc.js.map"
   },
   "entrypoints": [
     "static/css/main.9f28dd52.css",
-    "static/js/main.9011c81a.js"
+    "static/js/main.1fec20dc.js"
   ]
 }

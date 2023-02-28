@@ -1,3 +1,3 @@
 # My Portfolio
-This is My Portfolio Link.
-link :- https://captaintron.github.io/MyPortfolio/
+This is My Portfolio Website.
+If You have any feedback please let me know.

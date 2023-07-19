@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.e6f8304b.css",
-    "main.js": "/MyPortfolio/static/js/main.f3e30aff.js",
+    "main.css": "/MyPortfolio/static/css/main.4ec24d9f.css",
+    "main.js": "/MyPortfolio/static/js/main.d93685f8.js",
     "static/media/BharatSeva5.png": "/MyPortfolio/static/media/BharatSeva5.c5e1ed5f8f104d6fde2c.png",
     "static/media/WebExtensionImg.png": "/MyPortfolio/static/media/WebExtensionImg.69ee818e8509e7daeb36.png",
     "static/media/Weatherapp.png": "/MyPortfolio/static/media/Weatherapp.3c85411d96e9d20b2bfa.png",
@@ -10,7 +10,7 @@
     "static/media/BharatSeva.png": "/MyPortfolio/static/media/BharatSeva.0547724e0a5b086546c1.png",
     "static/media/BharatSeva6.png": "/MyPortfolio/static/media/BharatSeva6.8cb11aea45e49c2f070f.png",
     "static/media/BharatSeva4.png": "/MyPortfolio/static/media/BharatSeva4.3c8d318a228161435ed1.png",
-    "static/media/VaibhavYadav_Resume.pdf": "/MyPortfolio/static/media/VaibhavYadav_Resume.99a74034300836ffa0d2.pdf",
+    "static/media/VaibhavYadav_Resume.pdf": "/MyPortfolio/static/media/VaibhavYadav_Resume.ab79df9630a7a421abcb.pdf",
     "static/media/BharatSeva1.png": "/MyPortfolio/static/media/BharatSeva1.0f3a8ff22826995640c2.png",
     "static/media/Linkedinimg.png": "/MyPortfolio/static/media/Linkedinimg.70d685e104b580e403cf.png",
     "static/media/BharatSeva2.png": "/MyPortfolio/static/media/BharatSeva2.ca7c42f86502ed769116.png",
@@ -29,11 +29,11 @@
     "static/media/download.svg": "/MyPortfolio/static/media/download.520ebed7d34ec6c5f5ada3eb10fcc646.svg",
     "static/media/youtube.svg": "/MyPortfolio/static/media/youtube.cfff527d4e77cb8b6131fb1e1f445c15.svg",
     "static/media/linkedin.svg": "/MyPortfolio/static/media/linkedin.105953379cae0b982579206f06690f94.svg",
-    "main.e6f8304b.css.map": "/MyPortfolio/static/css/main.e6f8304b.css.map",
-    "main.f3e30aff.js.map": "/MyPortfolio/static/js/main.f3e30aff.js.map"
+    "main.4ec24d9f.css.map": "/MyPortfolio/static/css/main.4ec24d9f.css.map",
+    "main.d93685f8.js.map": "/MyPortfolio/static/js/main.d93685f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6f8304b.css",
-    "static/js/main.f3e30aff.js"
+    "static/css/main.4ec24d9f.css",
+    "static/js/main.d93685f8.js"
   ]
 }

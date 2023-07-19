@@ -56,16 +56,19 @@ export default function AboutMe(){
         <div className="BOX">CSS</div>
         <div className="BOX">Bootstrap</div>
         <div className="BOX">Javascript</div>
-        <div className="BOX">Python</div>
+        <div className="BOX">Linux</div>
         <div className="BOX">Git</div>
         <div className="BOX">GitHub</div>
         <div className="BOX">React JS</div>
         <div className="BOX">Node JS</div>
-        <div className="BOX">REST APIs</div>
         <div className="BOX">Express JS</div>
+        <div className="BOX">APIs</div>
         <div className="BOX">Terminal</div>
         <div className="BOX">SQL Basics</div>
-
+        <div className="BOX">AWS</div>
+        <div className="BOX">MongoDB</div>
+        <div className="BOX">Firebase</div>
+        
         </div>
         </div>
         </div>

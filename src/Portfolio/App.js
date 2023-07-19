@@ -1,4 +1,3 @@
-import logo from '../logo.svg';
 import './App.css';
 // this one for Navigation Bar
 import Navigation from './Components/NavigationBar';
@@ -12,23 +11,11 @@ import MyProjects from './Components/MyProjects';
 import Blogs from './Components/Blogs';
 // This one for Contact Me section 
 import ContactMe from './Components/ContactMe';
-// This one For Thanking Animation
-import Thanking from './Components/Thanking';
 // This one For Footer Section
 import Footer from './Footer';
 
-
-
-
-
-
-
-
-
 function App() {
-
-
-
+  
   return (
     <div className="App">
       <Navigation />

@@ -70,5 +70,26 @@
     }
     .bharatsevaplus_projects_info{
         width: 86vw;
+        font-size: 1.6vh;
+    }
+    .bharatsevaplus_projects_info h2{
+        margin: 3vh 0 0 0;
+    }
+    .displaytextbhart{
+        top: 17vh;
+        font-size: 1.5vh;
+        padding: 1vh;
+    }
+    .bharatsevaplus_projects_info p{
+        margin: 1vh 0 0 0;
+    }
+    .bhtsbtn{
+        margin-top: 1vh;
+        padding: 1vh;
+        width: 15vw;
+    }
+    .bhtsbtn > a{
+        font-size: 2vh;
+
     }
 }

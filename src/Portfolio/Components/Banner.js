@@ -6,8 +6,8 @@ export default function Banner(){
         <div id="Home" className="banner_div">
             <div className="img">
                 <div className="text-content">
-                <h2>HII <span class="wave">👋</span> !!<br></br> MYSELF <br></br> <span className="myname">VAIBHAV YADAV</span></h2>
-                <p>A Front End developer who loves to Explore Web Development </p>
+                <h2>HII <span class="wave">👋</span><br/>MYSELF <br></br> <span className="myname">VAIBHAV YADAV</span></h2>
+                <p>A Full Stack Webdeveloper who loves to Explore Software Development </p>
                 
                 <div className="mouseroll-container">
                 <div className="mouseroll">                    

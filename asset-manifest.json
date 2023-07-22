@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.4ec24d9f.css",
-    "main.js": "/MyPortfolio/static/js/main.d93685f8.js",
+    "main.css": "/MyPortfolio/static/css/main.a30b60c7.css",
+    "main.js": "/MyPortfolio/static/js/main.cd10bc84.js",
     "static/media/BharatSeva5.png": "/MyPortfolio/static/media/BharatSeva5.c5e1ed5f8f104d6fde2c.png",
     "static/media/WebExtensionImg.png": "/MyPortfolio/static/media/WebExtensionImg.69ee818e8509e7daeb36.png",
     "static/media/Weatherapp.png": "/MyPortfolio/static/media/Weatherapp.3c85411d96e9d20b2bfa.png",
@@ -29,11 +29,11 @@
     "static/media/download.svg": "/MyPortfolio/static/media/download.520ebed7d34ec6c5f5ada3eb10fcc646.svg",
     "static/media/youtube.svg": "/MyPortfolio/static/media/youtube.cfff527d4e77cb8b6131fb1e1f445c15.svg",
     "static/media/linkedin.svg": "/MyPortfolio/static/media/linkedin.105953379cae0b982579206f06690f94.svg",
-    "main.4ec24d9f.css.map": "/MyPortfolio/static/css/main.4ec24d9f.css.map",
-    "main.d93685f8.js.map": "/MyPortfolio/static/js/main.d93685f8.js.map"
+    "main.a30b60c7.css.map": "/MyPortfolio/static/css/main.a30b60c7.css.map",
+    "main.cd10bc84.js.map": "/MyPortfolio/static/js/main.cd10bc84.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ec24d9f.css",
-    "static/js/main.d93685f8.js"
+    "static/css/main.a30b60c7.css",
+    "static/js/main.cd10bc84.js"
   ]
 }

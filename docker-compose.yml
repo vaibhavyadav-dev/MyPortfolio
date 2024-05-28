@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  react-app:
+    image: node:16-alpine
+    working_dir: /app
+    ports:
+      - '3000:3000'
+    command: sh -c "npm install && npm start"
